@@ -1,0 +1,10 @@
+<!--pages/class/class.wxml-->
+<view class="bg">
+  <view class="tips"><text>选择感兴趣的主题，点进去看一下吧</text></view>
+  <view class="content" >
+    <view class="option" hover-class='wsui-btn__hover_list'  wx:for="{{optionobjs}}" wx:key="*this" bindtap="skip" data-type="{{item.kind}}">
+      <image src="{{item.url}}"></image>
+      <view><text>{{item.name}}</text></view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,61 @@
+{
+  "pages": [
+    
+    "pages/firstpage/firstpage",
+    "pages/class/class",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    
+    "pages/post/post",
+    "pages/my/my",
+    "pages/content/content",
+    "pages/signin/signin",
+    "pages/register/register",
+    "pages/replyinput/replyinput",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D53E37",
+    "navigationBarTitleText": "荔园晨风之我爱我校",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#D53E37",
+    "backgroundColor": "#f5f5f5",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/class/class",
+        "text": "话题",
+        "iconPath": "./image/firstpage.png",
+        "selectedIconPath": "./image/firstpage.png"
+      },
+      {
+        "pagePath": "pages/post/post",
+        "text": "发帖",
+        "iconPath": "./image/post.png",
+        "selectedIconPath": "./image/post.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./image/my.png",
+        "selectedIconPath": "./image/my.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

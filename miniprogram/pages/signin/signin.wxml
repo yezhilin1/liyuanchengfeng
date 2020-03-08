@@ -1,0 +1,23 @@
+<!--pages/signin/signin.wxml-->
+<view class="container">
+   <view class="title">用户登录</view>
+   <view class="login-from">
+      <view class="inputView"> 
+         <image class="nameImage" src="../../image/accountnumber.png"></image> 
+         <label class="loginLab">账号</label> 
+         <input class="inputText" placeholder="请输入账号" bindinput="accountnumberInput" /> 
+      </view>  
+      <view class="line"></view> 
+      <view class="inputView"> 
+         <image class="keyImage" src="../../image/password.png"></image> 
+         <label class="loginLab">密码</label> 
+         <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" /> 
+      </view> 
+      <view class="btnView" hover-class='wsui-btn__hover_btn'> 
+         <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button> 
+      </view>
+      <view class="btnView" hover-class='wsui-btn__hover_btn'> 
+         <button class="registerBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="register">没有账号，去注册</button> 
+      </view>
+   </view>   
+</view>

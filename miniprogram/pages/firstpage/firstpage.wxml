@@ -1,0 +1,5 @@
+<!--pages/firstpage/firstpage.wxml-->
+<view class="bg">
+<view class="te">因为热爱，所以发言</view>
+</view>
+

@@ -1,0 +1,34 @@
+<!--pages/register/register.wxml-->
+<view class="bg">
+<view class = 'success' wx:if="{{success}}">
+    <view class='cheer'><icon type="success" size="24"/> 恭喜您注册成功!</view>
+    <button type = "default" class='return' bindtap='returnhome'>返回首页</button>
+ </view>
+<view class="register" wx:else>
+<view class="title">用户注册</view>
+<view class="row">
+  <view class="info">
+    <input class= 'info-input' bindinput="handleInputAccountnumber" placeholder="请输入账号(5-8个字符)"></input>
+  </view>
+</view> 
+<view class="row">
+  <view class="info">
+    <input type="password" class= 'info-input' bindinput="handleInputPassword" placeholder="请输入密码(5-8个字符)"></input>
+  </view>
+</view>
+<view class="row">
+  <view class="info">
+    <input type="password" class= 'info-input' bindinput="handleInputPasswordAgain" placeholder="请重新输入你的密码"></input>
+  </view>
+</view>
+<view class="row">
+  <view class="info">
+    <input class= 'info-input' bindinput="handleInputNickname" placeholder="请输入昵称(3-6个字符)"></input>
+  </view>
+</view>
+
+ <button class='submit' bindtap='submit' hover-class='wsui-btn__hover_btn'>提交</button>
+ <button class='login' bindtap='login' hover-class='wsui-btn__hover_btn'>已有账号直接登录</button>
+</view>
+
+</view>

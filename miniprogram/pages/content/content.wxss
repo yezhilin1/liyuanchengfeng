@@ -1,0 +1,146 @@
+/* pages/content/content.wxss */
+.bg{
+  width: 100%;
+  height: 100%;
+  
+  position: fixed;
+  background-image:url('//wx2.sinaimg.cn/mw690/0067gnlhgy1gasogfjxzcj30u01hc119.jpg') ;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+.title{
+  background-color: #BBFFFF;
+  height: 25px;
+  padding: 5px;
+  font-size: 120%;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  position: relative;
+  top: 3px;
+}
+.post{
+  width: 100%;
+  background-color: #f2f2f2;
+  margin: 8px 4px;
+  
+  /* height: 200px; */
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  overflow: hidden; 
+}
+.user{
+  width: 80px;
+  
+  /* background-color: #f2f2f2; */
+  padding-bottom: 2000px;
+  margin-bottom: -2000px;
+  height: 100%;
+  float: left;
+  text-align: center;
+  border-right: 1px solid black;
+}
+.user image{
+ width: 80px;
+ height: 65px;
+ margin-top: 15px;
+}
+.usertext{
+ font-size: 13px;
+ margin-top: 15px;
+ color: #66B3FF;
+}
+.container{
+  /* background-color: #f2f2f2; */
+  float: left;
+  height: 100%;
+  width: 234px;
+  /* width: 100%; */
+  padding-bottom: 2000px;
+  margin-bottom: -2000px;
+  /* margin-left:80px ; */
+  overflow: hidden;
+  
+}
+.contentarea{
+  min-height:100px ;
+}
+.content{
+  width: 230px;
+  
+  font-size: 15px;
+  padding: 3px 3px;
+  word-wrap: break-word;
+}
+.imglist{
+  min-height: 90px;
+  width: 80%;
+  margin: 5px ;
+}
+.imglist image{
+  height: 45px;
+  width: 45px;
+  margin: 3px; 
+}
+/* .n{
+  width: 80%;
+  height: 100px;
+  background-color: white;
+} */
+.praise{
+  position: relative;
+  top: 19px;
+  left: -60px;
+  text-align: center;
+  
+ }
+ .praise image{
+  width: 20px;
+  height: 20px;
+ }
+ .praise text{
+  font-size: 10px;
+ }
+ .time{
+  font-size: 12px;
+  
+  position: relative;
+  left: 30px;
+  
+ }
+ .btn{
+   width: 100%;
+   height: 60px;
+   margin: 10px auto;
+ }
+ .back{
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  background-color: #97CBFF;
+  border: 3px solid  #66B3FF;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 15px;
+  left: 55px;
+ }
+ .back image{
+   width: 100%;
+   height: 100%;
+ }
+ .reply{
+   padding: 5px;
+  height: 50px;
+  width: 50px;
+  background-color: #97CBFF;
+  border: 3px solid  #66B3FF;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 15px;
+  right: 55px;
+ }
+ .reply image{
+  width: 100%;
+  height: 100%;
+ }

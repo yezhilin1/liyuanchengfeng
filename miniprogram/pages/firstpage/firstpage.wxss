@@ -1,0 +1,19 @@
+/* pages/firstpage/firstpage.wxss */
+.bg{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image:url('https://wx3.sinaimg.cn/mw690/0067gnlhgy1gca2oi5b22g30ia0dq7b7.gif') ;
+  background-size: 100% 65%;
+  background-repeat: no-repeat;
+}
+.te{
+  font-family: FangSong;
+  font-style: italic;
+  font-size: 25px;
+  color: orangered;
+  position: relative;
+  top: 530px;
+  left: 72px;
+}

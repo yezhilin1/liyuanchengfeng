@@ -1,0 +1,99 @@
+/**index.wxss**/
+page{ 
+  height: 100%; 
+ } 
+ .bg{
+  height: 100%; 
+  width: 100%;
+  display: flex; 
+  flex-direction: column; 
+  padding: 0; 
+  box-sizing: border-box; 
+  position: fixed;
+  background-image:url('//wx2.sinaimg.cn/mw690/0067gnlhgy1gasogfjxzcj30u01hc119.jpg') ;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: auto;
+ }
+ .kind{
+   width: 100%;
+   height:auto;
+   background-color: #BBFFFF;
+   color: #46A3FF;
+   font-weight: bold;
+   font-size: 25px;
+   text-align: center;
+ }
+ .post{
+   width: 100%;
+   background-color: white;
+   margin: 8px 4px;
+   height: 90px;
+   border-top: 1px solid black;
+  border-bottom: 1px solid black;
+   /* overflow: hidden; */
+ }
+
+ .user{
+    width: 80px;
+    background-color: #E0E0E0;
+    height: 100%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid black;
+ }
+ .user image{
+   width: 55px;
+   height: 55px;
+   
+ }
+ .usertext{
+   font-size: 13px;
+   margin-top: 5px;
+   color: #66B3FF;
+ }
+ .container{
+   background-color: white;
+   height: 100%;
+   margin-left:80px ;
+ }
+ .title{
+  font-size: 15px;
+  position: relative;
+  top: 5px;
+  color: #66B3FF;
+  overflow: hidden;
+ }
+ .comment{
+  position: relative;
+  top: 26px;
+  left: 35px;
+  text-align: center;
+  
+ }
+ .comment image{
+  width: 20px;
+  height: 20px;
+ }
+ .comment text{
+  font-size: 10px;
+ }
+ .praise{
+  position: relative;
+  top: 3px;
+  left: 75px;
+  text-align: center;
+ }
+ .praise image{
+  width: 20px;
+  height: 20px;
+ }
+ .praise text{
+  font-size: 10px;
+ }
+ .time{
+  font-size: 10px;
+  position: relative;
+  top: 5px;
+  left: 60px;
+ }

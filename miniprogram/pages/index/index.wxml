@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="bg">
+  <view class="kind">{{type}}</view>
+  <view class="post"  hover-class='wsui-btn__hover_list'  wx:for='{{postobjs}}' wx:key="_id" bindtap="skip"  data-id='{{item._id}}'>
+    <view class="user">
+      <image  src="../../image/user.png"></image>
+      <view class="usertext">{{item.nickname}}</view>
+    </view>
+    <view class="container">
+      <view class="title">{{item.title}}</view>
+      <view class="comment">
+        <image src="../../image/comment.png"></image>
+        <text>{{item.commentnumber}}</text>
+      </view>
+      <view class="praise" >
+        <image src="../../image/praise.png"></image>
+        <text>{{item.praisenumber}}</text>
+      </view>
+      <view class="time">{{item.time}}</view>
+    </view>
+  </view>
+</view>

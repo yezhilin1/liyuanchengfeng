@@ -1,0 +1,29 @@
+<!--pages/content/content.wxml-->
+<view class="bg">
+  <view class="title">{{title}}</view>
+  <view class="post" wx:for='{{postobjs}}' wx:key="*this" wx:for-index='index'  >
+    <view class="user">
+      <image  src="../../image/user.png"></image>
+      <view class="usertext">{{item.nickname}}</view>
+    </view>
+    <view class="container"> 
+    <view class="contentarea">
+      <view class="content">{{item.content}}</view> 
+      <view class="imglist" wx:for='{{item.imagelist}}' wx:for-item="imglist"  wx:key="*this">
+        <image src="{{imglist}}" binderror="er"></image>
+      </view>
+     </view> 
+      <view class="praise" >
+        <image catchtap="praise"  wx:if='{{item.notPraise}}' src="../../image/praise.png" data-id='{{item._id}}' data-num='{{item.praisenumber}}' data-index='{{index}}'></image>
+        <image catchtap="notpraise" wx:else src="../../image/praise1.png" data-id='{{item._id}}' data-num='{{item.praisenumber}}' data-index='{{index}}'></image>
+        <text>{{item.praisenumber}}</text>
+      </view>
+      <view class="time">{{item.time}}</view>
+    </view>
+  </view>
+  <view class="btn">
+   <view class="back" bindtap="back"><image src="../../image/back.png"></image></view>
+   <view class="reply" bindtap="reply"><image src="../../image/reply.png"></image></view>
+  </view>
+  
+</view>

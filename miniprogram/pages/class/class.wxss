@@ -1,0 +1,49 @@
+/* pages/class/class.wxss */
+.page{
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+.bg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image:url('//wx2.sinaimg.cn/mw690/0067gnlhgy1gasllk5rh5j30u01hcdj2.jpg') ;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.tips{
+  color: #9393FF;
+  margin: 10px 35px;
+  padding-left: 13px;
+  font-size: 20px;
+  font-style: italic;
+}
+.content{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+}
+.option{
+  float:  left;
+  margin: 35px 38px;
+  padding: 5px 5px;
+  border: 4px solid #B9B9FF;
+  border-radius: 23px;
+  font-weight:  bold;
+  background-color: #FFFF77;
+}
+
+.option image{
+  width: 50px;
+  height: 50px;
+  margin-left: 8px;
+}
+
+.wsui-btn__hover_list {
+  border-color: #66CCFF;
+  background-color: #AFEEEE;
+}

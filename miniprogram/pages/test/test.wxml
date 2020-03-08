@@ -1,0 +1,4 @@
+<!--pages/test/test.wxml-->
+<view wx:for='{{test}}' wx:key='*this' wx:for-index='index'>
+<view bindtap="touch" style="height=10px" data-index='{{index}}'>{{item.name}} </view>
+</view>
